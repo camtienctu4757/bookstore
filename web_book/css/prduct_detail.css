@@ -1,0 +1,130 @@
+
+.slider,
+.product-catarogy,
+.pre-menu,
+.menu
+{
+    display: none;
+}
+.chitiet-sanpham{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    background-color: #fff;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    padding-top: 50px;
+    margin-top: 180px;
+}
+.sampham-img{
+    margin: 10px 50px;
+}
+.img_sanpham{
+    width: 320px;
+    height: 350px;
+    /* margin-bottom: 20px; */
+    margin: 0px auto;
+
+}
+
+.name_book{
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+    margin: 0px;
+}
+.number_book,
+.price,
+.sx,
+.tk{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+.ogrinal,
+.design,
+.Author{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.price{
+    justify-content: left;
+}
+.new_price{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.old_price{
+    padding: 15px;
+    text-decoration: line-through;
+    color: #8f8b8b;
+}
+
+.sale_price{
+    background-color: red;
+    height: 25px;
+    border-radius: 5px;
+    padding: 2px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+.number_book{
+    justify-content: left;
+    align-items: center;
+}
+.number_book label{
+    font-size: 20px;
+    font-weight: 600;
+    color:#000;
+}
+.btn{
+    padding: 15px;
+    color: #8f8b8b;
+
+}
+.input-qty{
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.input_number{
+    border: none;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.btn_tang,
+.btn_giam{
+    width: 12px;
+    
+}
+.sanpham_add{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+
+ 
+}
+.buy_now,
+.add_cart{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    
+
+}
+
+.add_cart{
+    
+    border: 2px solid red;
+    background-color: red;
+    color: #fff;
+}

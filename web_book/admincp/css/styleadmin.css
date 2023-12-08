@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+ul.admincp_list li{
+    float: left;
+    margin: 10px;
+}
+.clear{
+    clear: both;
+}
+.title_admin{
+    text-align: center;
+    color: rgb(244, 94, 8);
+    font-weight: 600;
+    font-size: 40px;
+}
+.wraper{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    border: #000 1px solid;
+}

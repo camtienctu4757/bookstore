@@ -1,0 +1,92 @@
+.slider,
+.product-catarogy,
+.pre-menu,
+.menu
+{
+    display: none;
+}
+:root{
+    --primary-color:#ff9900;
+    --black-color: black;
+}
+
+.main-body{
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+.header-form{
+    text-align: center;
+    padding: 20px 30px;
+}
+.header-form a{
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.primary,
+.non-primary{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.primary{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    
+}
+.non-primary {
+    color: var(--black-color);
+    
+
+}
+.login-field,
+.forgot{
+    width: 80%;
+    margin: 13px auto;
+
+}
+.login-input{
+    width: 100%;
+    height: 40px;
+}
+.login-input:focus{
+    border: 2px solid var(--primary-color);
+}
+.input-name{
+    margin-bottom: 5px;
+}
+
+.login-button{
+    display: block;
+    width: 40%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: none;
+
+}
+.btn{
+    border: none;
+}
+.btn-login{
+    width: 40%;
+    border-radius: 6px;
+    margin: 5px 0;
+    padding: 8px 0px;
+    border: none;
+}
+
+.login-with-login{
+    background: var(--primary-color);
+    color: #fff;
+}
+.sign-content{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 20px 0;
+} 
